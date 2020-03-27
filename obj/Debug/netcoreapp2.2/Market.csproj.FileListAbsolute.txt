@@ -1,0 +1,5 @@
+/Users/alexskreen/Desktop/Market.Solution/obj/Debug/netcoreapp2.2/Market.csprojAssemblyReference.cache
+/Users/alexskreen/Desktop/Market.Solution/obj/Debug/netcoreapp2.2/Market.RazorAssemblyInfo.cache
+/Users/alexskreen/Desktop/Market.Solution/obj/Debug/netcoreapp2.2/Market.RazorAssemblyInfo.cs
+/Users/alexskreen/Desktop/Market.Solution/obj/Debug/netcoreapp2.2/Market.AssemblyInfoInputs.cache
+/Users/alexskreen/Desktop/Market.Solution/obj/Debug/netcoreapp2.2/Market.AssemblyInfo.cs

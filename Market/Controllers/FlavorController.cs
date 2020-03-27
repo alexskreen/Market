@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using Markett.Models;
+using Market.Models;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
@@ -11,16 +11,16 @@ using Microsoft.AspNetCore.Identity;
 using System.Threading.Tasks;
 using System.Security.Claims;
 
-namespace Markett.Controllers
+namespace Market.Controllers
 {
   [Authorize] //new line
   public class FlavorsController : Controller
   {
-    private readonly MarkettContext _db;
+    private readonly MarketContext _db;
     private readonly UserManager<ApplicationUser> _userManager; //new line
 
     //updated constructor
-    public FlavorsController(UserManager<ApplicationUser> userManager, MarkettContext db)
+    public FlavorsController(UserManager<ApplicationUser> userManager, MarketContext db)
     {
       _userManager = userManager;
       _db = db;
