@@ -5,7 +5,7 @@ html {
 
 body {
   background-color: black;
-  background-image: linear-gradient(silver, cyan, lavender, black);
+  background-image: linear-gradient(rgb(250, 12, 12), rgb(138, 36, 36), rgb(151, 119, 117), black);
   text-align: center;
   font-family: courier;
   margin-top: 50px;
