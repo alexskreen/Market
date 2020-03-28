@@ -4,8 +4,6 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc.Rendering;
-
-//new using directives
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using System.Threading.Tasks;
@@ -13,20 +11,18 @@ using System.Security.Claims;
 
 namespace Market.Controllers
 {
-  [Authorize] //new line
+  [Authorize]
   public class FlavorsController : Controller
   {
     private readonly MarketContext _db;
-    private readonly UserManager<ApplicationUser> _userManager; //new line
+    private readonly UserManager<ApplicationUser> _userManager;
 
-    //updated constructor
     public FlavorsController(UserManager<ApplicationUser> userManager, MarketContext db)
     {
       _userManager = userManager;
       _db = db;
     }
 
-    //updated Index method
     public async Task<ActionResult> Index()
     {
       var userId = this.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
@@ -74,7 +70,7 @@ namespace Market.Controllers
     }
 
     [HttpPost]
-    public ActionResult Edit(Flavor Flavor, int TreatId)
+    public ActionResult Edit(Flavor flavor, int TreatId)
     {
       if (TreatId != 0)
       {

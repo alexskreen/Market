@@ -4,7 +4,7 @@ namespace Market.Models
 {
     public class Flavor
     {
-        public Item()
+        public Flavor()
         {
             this.Treats = new HashSet<TreatFlavor>();
         }
