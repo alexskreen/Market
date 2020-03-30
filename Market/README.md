@@ -1,6 +1,6 @@
 # _Alex's Market_
 
-#### _MySQL & Entity Framework Core project for Epicodus_, _Mar. 20 2020_
+#### _MySQL & Entity Framework Core project for Epicodus_, _Mar. 27 2020_
 
 #### By _**Alex Skreen**_
 
