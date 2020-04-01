@@ -84,6 +84,7 @@ _Confirm that you have navigated to the Market.Solution directory (e.g., by ente
 * ``cd Market``
 * ``dotnet restore``
 * ``dotnet build``
+* ``dotnet ef database update``
 * ``dotnet run`` or ``dotnet watch run``
 
 _To view/edit the source code of this application, open the contents of this directory in a text editor or IDE of your choice (e.g., to open all contents of the directory in Visual Studio Code on macOS, enter the command_ ``code .`` _in Terminal)._
