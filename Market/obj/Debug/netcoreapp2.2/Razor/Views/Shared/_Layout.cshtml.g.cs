@@ -48,7 +48,7 @@ namespace AspNetCore
             BeginContext(25, 230, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fff317bf7ce6cde390cc54fcd06e5e74dcf529963721", async() => {
                 BeginContext(31, 167, true);
-                WriteLiteral("\n    <meta charset=\"utf-8\">\n    <title>To Do List</title>\n    <link rel=\'stylesheet\' href=\'https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css\'>\n    ");
+                WriteLiteral("\n    <meta charset=\"utf-8\">\n    <title>Alex's Market</title>\n    <link rel=\'stylesheet\' href=\'https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css\'>\n    ");
                 EndContext();
                 BeginContext(198, 47, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "fff317bf7ce6cde390cc54fcd06e5e74dcf529964271", async() => {
